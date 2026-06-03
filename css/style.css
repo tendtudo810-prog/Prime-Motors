@@ -147,21 +147,6 @@ nav ul li a:hover::after {
   cursor: pointer;
 }
 
-.tex-hr {
-  position: absolute;
-  display: block;
-  width: 40%;
-  text-align: center;
-  margin-top: -40vh;
-  margin-left: 5vw;
-}
-
-.hero-txt {
-  font-size: 40px;
-  color: #d4af37;
-  margin-bottom: 3vh;
-}
-
 .hero-back {
   position: absolute;
   width: 100vw;
@@ -178,6 +163,7 @@ nav ul li a:hover::after {
   border-radius: 20px;
   margin-left: 55vw;
   margin-top: 40vh;
+  opacity: 0%;
 }
 
 .titulo {
