@@ -147,6 +147,61 @@ nav ul li a:hover::after {
   cursor: pointer;
 }
 
+.start {
+  margin-top: 60vh;
+  position: absolute;
+}
+
+.welcome {
+  text-align: center;
+  font-size: 40px;
+  color: #d4af37;
+}
+
+.lor {
+  width: 60%;
+  margin-left: 20vw;
+  text-align: center;
+  margin-top: 3vh;
+}
+
+.but {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 550;
+  padding: 20px;
+  color: #d4af37;
+  border: 2px solid #d4af37;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin-top: 10vh;
+  margin-left: 45vw;
+  position: absolute;
+  transition: 0.6s;
+  -webkit-transition: 0.6s;
+  -moz-transition: 0.6s;
+  -ms-transition: 0.6s;
+  -o-transition: 0.6s;
+}
+
+.but:hover {
+  transition: 0.6s;
+  -webkit-transition: 0.6s;
+  -moz-transition: 0.6s;
+  -ms-transition: 0.6s;
+  -o-transition: 0.6s;
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  background-color: #d4af37;
+  color: black;
+}
+
 .hero-back {
   position: absolute;
   width: 100vw;
@@ -402,9 +457,10 @@ nav ul li a:hover::after {
 }
 
 .icones1 {
-  background-color: #0b0b0b60;
-  padding: 15px 20px;
-  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.06);
+  padding: 12px 18px;
+  border-radius: 999px;
+  transition: background-color 0.25s ease;
 }
 
 .footer {
